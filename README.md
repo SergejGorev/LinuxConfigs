@@ -39,9 +39,13 @@ From this point on, you can treat it like normal git repo. One interesting use c
 
 ## Setting up new machines
 Now that you have the first machine set up and syncing nicely, you can start setting up the second machine by first adding this line to .zshrc or .bashrc.
-`alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
+```
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+```
 Then clone the repo from Gitlab to the folder:
-`git clone --bare git@gitlab.com:yourname/testrepo.git $HOME/.cfg`
+```
+git clone --bare git@gitlab.com:yourname/testrepo.git $HOME/.cfg
+```
 From here, you can `pull`, `push`, `merge` and `checkout` to your hearts content.
 You really should read the source article since it explains the steps in detail except adding remote repo.
 
