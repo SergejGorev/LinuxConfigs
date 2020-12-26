@@ -64,6 +64,8 @@ alias ..='cd ..'
 # pacman or pm
 alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'
+alias paci='pacman -S'
+alias pacr='pacman -Rns'
 
 #fix obvious typo's
 alias pdw="pwd"
@@ -73,7 +75,7 @@ alias updte='sudo pacman -Syyu'
 alias updqte='sudo pacman -Syyu'
 
 #userlist
-alias userlist="cut -d: -f1 /etcä/passwd"
+alias userlist="cut -d: -f1 /etc/passwd"
 
 # LEAN and QC CLI
 alias lean='docker-compose run algo-lean'
