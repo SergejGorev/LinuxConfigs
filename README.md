@@ -50,7 +50,9 @@ From here, you can `pull`, `push`, `merge` and `checkout` to your hearts content
 You really should read the source article since it explains the steps in detail except adding remote repo.
 
 
-
+# bios update
+unzip exe with 7z e blabla.exe
+/HP/DEVFW/firmware.bin
 
 
 # DWM ==> yay -S dwm-distrotube-git
